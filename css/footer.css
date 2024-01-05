@@ -1,0 +1,154 @@
+.footer {
+   background-color: var(--background-formacion);
+   font-size: 14px;
+   padding: 20px 20px;
+   color: var(--color-footer-texto);
+   position: relative;
+}
+
+.container__footer {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+   box-shadow: var(--shadow);
+   margin-bottom: 30px;
+}
+
+.footer__title {
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 10px;
+   color: var(--color-parrafo);
+   font-weight: bold;
+}
+
+.footer__title__correo {
+   text-align: center;
+   color: var(--color-icon);
+}
+
+.container__footer__datos {
+   margin-left: 50px;
+   padding: 10px;
+}
+
+.container__footer__title {
+   font-size: 27px;
+   font-weight: bold;
+   color: var(--color-amarillo);
+}
+
+.container__footer__catalogo {
+   font-size: 17px;
+   text-align: center;
+   padding: 5px;
+}
+
+.footer__contacto__title {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   color: var(--color-parrafo);
+}
+
+.contacto__lista {
+   margin-top: 10px;
+   text-align: center;
+}
+
+.footer__contacto__title h5 {
+   margin: 7px;
+}
+
+.footer__copyrith {
+   margin-top: 30px;
+   margin-bottom: 20px;
+   padding: 3px;
+   font-size: 15px;
+   position: absolute;
+   bottom: 0;
+}
+
+.footer__mobil {
+   padding: 7px;
+}
+
+.fa-arrow-right {
+   font-size: 14px;
+   margin-right: 5px;
+   color: var(--color-icon);
+}
+
+.fa-star {
+   font-size: 14px;
+   margin-right: 5px;
+   margin: 5px;
+   color: var(--color-icon);
+}
+
+.fa-copyright {
+   color: var(--color-icon);
+   margin-right: 5px;
+}
+
+.fa-envelope {
+   font-size: 15px;
+   margin: 5px;
+}
+
+.fa-github-alt {
+   font-size: 40px;
+   color: var(--color-icon);
+   margin: 10px;
+}
+
+.fa-linkedin {
+   font-size: 40px;
+   color: var(--color-icon);
+   margin: 10px;
+}
+
+.fa-whatsapp {
+   font-size: 40px;
+   color: var(--color-icon);
+   margin: 10px;
+}
+
+
+
+/* *************Código Responsive**************************** */
+
+@media (max-width: 650px) {
+
+   footer {
+      align-items: center;
+      position: initial;
+   }
+
+   .footer__title {
+      font-size: 25px;
+      text-align: center;
+   }
+
+   .container__footer {
+      flex-direction: column;
+   }
+
+   .container__footer__catalogo {
+      margin-top: 40px;
+      margin-bottom: 30px;
+   }
+
+   .container__footer__title {
+      margin-left: 0;
+      font-size: 20px;
+      text-align: center;
+   }
+
+   .footer__copyrith {
+      margin: 0;
+      position: inherit;
+   }
+}

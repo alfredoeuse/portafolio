@@ -1,0 +1,63 @@
+.container__about__principal {
+    background: var(--background-main);
+}
+
+section.about {
+    width: 93%;
+    height: 320px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background: url(../assets/pexel/pixabay-05.jpg);
+    background-size: cover;
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
+
+.about__container {
+    width: 780px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 570;
+    border-left: 1px solid var(--color-parrafo);
+    border-right: 1px solid var(--color-parrafo);
+}
+
+.about__title {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--color-parrafo);
+}
+
+.about__parrafo {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    color: var(--color-parrafo);
+}
+
+
+/* ***********Código movile****************** */
+
+@media (max-width: 768px) {
+    section.about {
+        width: 90%;
+        height: 200px;
+    }
+
+    .about__title {
+        font-size: 1em;
+    }
+
+    .about__parrafo {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 620px) {
+    section.about {
+        width: 300px;
+        height: auto;
+    }
+}

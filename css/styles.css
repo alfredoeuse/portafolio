@@ -1,0 +1,13 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+ }
+
+ .container__main {
+    width: 100%;
+    height: auto;
+    background-color: #3997E9;
+ }

@@ -1,0 +1,152 @@
+.header__menu {
+    padding: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-main);
+}
+
+.menu__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.menu__logo img {
+    margin-right: 10px;
+    width: 40px;
+}
+
+.menu__logo__title {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 30px;
+    color: var(--color-title);
+}
+
+.container__menu {
+    display: flex;
+    margin-right: 40px;
+}
+
+.menu__menu {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.menu__item {
+    list-style: none;
+    padding: 10px;
+    margin: 0 3px;
+    border-radius: 7px;
+    border: 1px solid #fff;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__link:hover:hover {
+    color: #fff;
+}
+
+.menu__item:hover {
+    background-color: var(--background-menu);
+    border: 1px solid var(--background-menu);
+}
+
+.container__menu img {
+    width: 50px;
+}
+
+/* ************  codigo responsive  ******************** */
+
+@media (max-width: 1100px) {
+    .header__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 27px;
+    }
+
+    .menu__logo {
+        margin-left: 0;
+    }
+
+    .menu__logo__title {
+        padding: 0;
+    }
+
+    .menu__logo img {
+        margin-right: 10;
+    }
+
+    .container__menu {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .container__menu img {
+        display: none;
+    }
+
+    .menu__menu {
+        margin: auto;
+    }
+}
+
+/* *****************Código Responsive******************** */
+
+@media (max-width: 680px) {
+    .header__menu {
+        padding: 0;
+        width: auto;
+        flex-direction: column;
+    }
+
+    .container__menu {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .menu__menu {
+        width: 70%;
+        text-align: center;
+        align-items: initial;
+        flex-direction: column;
+    }
+
+    .menu__menu li {
+        margin: 4px;
+    }
+
+    .menu__item {
+        margin: 0;
+    }
+
+    .menu__logo {
+        flex-direction: column;
+    }
+
+    .menu__logo img {
+        width: 40px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .menu__logo__title {
+        font-size: 20px;
+    }
+
+    .container__menu img {
+        display: none;
+    }
+}

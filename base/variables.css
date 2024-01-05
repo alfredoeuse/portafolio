@@ -1,0 +1,31 @@
+:root {
+    --f-family-main: "Montserrat", sans-serif;
+    --f-family-cut: "Pacifico", cursive;
+
+    
+  
+    --background-main: #0d286b;
+    --background-menu: #8686f8;
+    --background-formacion: #0b0e21;
+    --background-content: #214d5c;
+    --background-button: #393eda;
+    --background-button-two: #168851;
+    --background-input: #3f2c2c;
+
+    --color-title: #0077ff;
+    --color-parrafo: #d6c9b0;
+    --color-certificado: #d6eaff;
+    --color-formulario: #4d4d4d;
+    --color-amarillo: #c5a819;
+    --color-title-certificado: #5EC6F3;
+    --color-title-diploma: #373737;
+    --color-title-carboard: #5EC6F3;
+    --color-nametwo: #527ba3;
+    --color-namefour: #679c84;
+    --color-namefive: #2487ae;
+    --color-title-description: #324c64;
+    --color-footer-texto: #6dffe4;
+    --color-icon: #07F88C;
+
+    --shadow: 0 1px 0 #8fb6df38;
+  }

@@ -1,0 +1,106 @@
+   section.form__contacto {
+       width: 100%;
+       padding: 1em 0;
+       display: flex;
+       justify-content: center;
+       background-color: var(--background-main);
+   }
+
+   .form__contacto__form {
+       display: flex;
+       flex-direction: column;
+       background: #202010;
+       border-radius: 10px;
+       padding: 1rem;
+   }
+
+   .title__formulario {
+       font-size: 20px;
+       color: var(--color-amarillo);
+       font-weight: bold;
+       text-align: center;
+       padding: 10px;
+   }
+
+   .text__label {
+       color: var(--color-amarillo);
+       margin-bottom: 5px;
+   }
+
+   .textarea__label {
+       color: var(--color-amarillo);
+       text-align: center;
+       margin-top: 10px;
+   }
+
+   .form__contacto__input {
+       border-radius: 3px;
+       border: none;
+       outline: none;
+       margin-bottom: 10px;
+       padding: 7px;
+       background-color: var(--background-input);
+   }
+
+   input {
+       color: #fff;
+   }
+
+   .form__contacto__textarea {
+       width: 450px;
+       height: 100px;
+       border: transparent;
+       outline: none;
+       border: none;
+       margin: 0 auto;
+       margin-top: 10px;
+       resize: none;
+       border-radius: 10px;
+       padding: 10px;
+       background-color: var(--background-input);
+       color: #fff;
+   }
+
+   .form__contacto__botao {
+       padding: 20px;
+       border-radius: 7px;
+       background-color: var(--background-button);
+       color: #fff;
+       border: none;
+       margin: 0 auto;
+       margin-top: 20px;
+       margin-bottom: 5px;
+       transition: background-color 0.5s;
+       cursor: pointer;
+   }
+
+   .form__contacto__botao:hover {
+       background: var(--color-amarillo);
+   }
+
+
+   /********************Código Responsive****************************/
+
+
+   @media (max-width: 600px) {
+
+
+       .container__formulario {
+           width: 400px;
+       }
+
+       .form__contacto__textarea {
+           width: 300px;
+       }
+   }
+
+
+   @media (max-width: 420px) {
+       .container__formulario {
+           width: 300px;
+       }
+
+       .form__contacto__textarea {
+           width: 200px;
+       }
+   }
